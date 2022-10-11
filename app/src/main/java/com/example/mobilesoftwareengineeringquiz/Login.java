@@ -19,21 +19,21 @@ public class Login extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-
-        loginBtn = findViewById(R.id.login_btn);
-        registerBtn = findViewById(R.id.register_btn1);
-        inputUsername = findViewById(R.id.username_field);
-        inputPassword = findViewById(R.id.password_field);
-
-        registerBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), Register.class);
-                startActivity(intent);
-
-            }
-        });
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_login);
+//
+//        loginBtn = findViewById(R.id.login_btn);
+//        registerBtn = findViewById(R.id.register_btn1);
+//        inputUsername = findViewById(R.id.username_field);
+//        inputPassword = findViewById(R.id.password_field);
+//
+//        registerBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(view.getContext(), Register.class);
+//                startActivity(intent);
+//
+//            }
+//        });
     }
 }
